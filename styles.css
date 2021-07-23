@@ -66,11 +66,14 @@ h1{
     box-shadow: 3px 5px 4px rgb(163, 162, 162);
 }
 
-.output{
-    width:50%;
+#output{
+    margin:1rem;
+    width:70%;
     height:10%;
     border:1px solid black;
     margin-left: 25%;
+    font-size: 1.5rem;
+    padding:1rem;
 }
 
 /* footer */
@@ -92,4 +95,8 @@ footer{
     font-size: 1.5rem;
     padding:2rem;
     color:white;
+}
+.link a:hover{
+    color:blue
+
 }
