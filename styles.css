@@ -5,6 +5,7 @@
 section {
     max-width: 90%;
     margin:0.5rem 4rem;
+    
 }
 
 /* header section */
@@ -42,5 +43,53 @@ h1{
     h1{
         font-size: 2rem;
     }
+
 }
 /* container */
+.container{
+    margin: 2rem;
+    text-align: center;
+}
+
+#text-input{
+    padding:2rem;
+    margin:2rem 0;
+}
+.btn{
+    font-size: 1.5rem;
+    padding:.5rem;
+    margin-left: -500px;
+    border: none;
+    background:rgba(255, 167, 3, 0.74);
+    color:#fff;
+    border-radius:10px;
+    box-shadow: 3px 5px 4px rgb(163, 162, 162);
+}
+
+.output{
+    width:50%;
+    height:10%;
+    border:1px solid black;
+    margin-left: 25%;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background:rgba(255, 167, 3, 0.74);
+    color:rgba(255,255,255,0.7);
+    padding:2rem;
+    font-size:1.5rem;
+    border-radius: 50px 0 50px 0;
+
+}
+.link{
+    padding:1rem 2rem;
+    margin:1rem;
+}
+.link a{
+    font-size: 1.5rem;
+    padding:2rem;
+    color:white;
+}
