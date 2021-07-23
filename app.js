@@ -9,8 +9,15 @@ function urlTranslation(text){
 }
 
 function clickHandler(){
- 
+ var input = textInput.value;
 
+ //calling function to convert data into json format
+
+ fetch(urlTranslation(input))
+ .then(response =>response.json())
+ .then(json => {var translated=json.contents.translated;
+    output.innerHTML=translated});
+}
 
  
 btnTranslate.addEventListener("click",clickHandler());
